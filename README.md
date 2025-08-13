@@ -69,8 +69,6 @@ Key points:
 
 ## Algorithm
 
-## Algorithm
-
 1. **Start**
 2. Initialize two integers:
    - `a = 5`
