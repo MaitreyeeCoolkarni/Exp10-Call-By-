@@ -140,6 +140,22 @@ Key points:
 
 ## Algorithm
 
+## Algorithm
+
+1. **Start**
+2. Initialize two integer arrays:
+   - `arr = {1, 2, 3, 4, 5}`
+   - `arr1 = {2, 4, 6, 8, 10}`
+3. Display **"Initial Array"** by printing all elements of `arr`.
+4. For each index `i` from 0 to 4:
+   - Call the function `change_val(arr[i], arr1[i])`:
+     - Inside the function:
+       1. Assign the value `val` to `x` (reference to `arr[i]`).
+       2. This changes the original element in `arr` to `arr1[i]`.
+5. Display **"Changed Array"** by printing all updated elements of `arr`.
+6. **Stop**
+
+
 
 
 
