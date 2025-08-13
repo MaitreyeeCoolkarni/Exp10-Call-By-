@@ -67,6 +67,28 @@ Implemented in C++ using references (&) or pointers (*) – C only supports it v
 
 ## Program 1
 
+## Algorithm
+
+1. **Start**
+2. 
+3. Initialize two integers:
+   - `a = 5`
+   - `b = 10`
+   - 
+4. Call the function `swap(a, b)`:
+   - Inside the function:
+     1. Store `x` in a temporary variable `temp`.
+     2. Assign the value of `y` to `x`.
+     3. Assign the value of `temp` to `y`.
+   - **Note:** This uses *Call by Value*, so only copies of `a` and `b` are swapped; originals remain unchanged.
+   - 
+5. Display `a` and `b` in the main function.
+
+7. **Stop**
+   
+
+## Program 2:
+
 
 
 
