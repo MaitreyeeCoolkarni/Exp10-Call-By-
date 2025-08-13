@@ -32,7 +32,6 @@ Key points:
 8.Overhead for large data – For big objects/arrays, copying can be slower and use more memory.
 
 9.Default method in C/C++ – If you don’t use pointers or references, parameters are passed by value by default.
-
 10.Cannot return multiple results directly – Since it only has a copy, the function can’t modify multiple original variables unless you return them explicitly.
 
 11.Immutable in effect – The function works as if the parameter were read-only (even if you modify the copy).
@@ -54,6 +53,8 @@ Key points:
 7.Implemented in C++ using references (&) or pointers (*) – C only supports it via pointers.
 
 
+
+
 | Feature | Call by Value | Call by Reference |
 |---------|--------------|-------------------|
 | **What is passed** | Copy of the actual value | Memory address (reference) of the actual value |
@@ -64,6 +65,9 @@ Key points:
 | **Multiple return values** | Not possible directly | Possible, since you can modify multiple variables |
 | **Implementation in C++** | Default method (no `&` or `*` needed) | Use references (`&`) or pointers (`*`) |
 | **Usage in C** | Supported directly | Only possible using pointers |
+
+
+
 
 ## Program 1
 
