@@ -86,6 +86,22 @@ Implemented in C++ using references (&) or pointers (*) – C only supports it v
 
 ## Program 2:
 
+## Algorithm
+
+1. **Start**
+2. Initialize two integers:
+   - `a = 5`
+   - `b = 10`
+3. Call the function `swap(&a, &b)`:
+   - Inside the function:
+     1. Store the value pointed to by `x` in a temporary variable `temp`.
+     2. Assign the value pointed to by `y` to the location pointed to by `x`.
+     3. Assign the value of `temp` to the location pointed to by `y`.
+   - **Note:** This uses *Call by Reference* (via pointers), so the original `a` and `b` in `main` are swapped.
+4. Display `a` and `b` in the main function.
+5. **Stop**
+
+## Program 3:
 
 
 
@@ -96,35 +112,7 @@ Implemented in C++ using references (&) or pointers (*) – C only supports it v
 
 ## Algorithm
 
-Start
 
-Input the employee’s salary.
-
-Input the following details:
-
-Number of Research Projects (proj)
-
-Number of Research Publications (pub)
-
-Profit (prof)
-
-Number of New Projects (new_proj)
-
-Check the increment condition:
-
-If at least three out of four criteria are satisfied (combinations checked in the if statement), then:
-
-Call increment_ref(salary) → salary is increased by 20%.
-
-Display the new salary.
-
-Else:
-
-Call increment_val(salary) → only a copy of salary is changed, original salary remains same.
-
-Display the unchanged salary with message “No increment!”.
-
-Stop
 
 
 
