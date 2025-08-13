@@ -65,6 +65,46 @@ Implemented in C++ using references (&) or pointers (*) – C only supports it v
 | **Implementation in C++** | Default method (no `&` or `*` needed) | Use references (`&`) or pointers (`*`) |
 | **Usage in C** | Supported directly | Only possible using pointers |
 
+## Program 1
+
+
+
+
+
+## Program 4:
+
+## Algorithm
+
+Start
+
+Input the employee’s salary.
+
+Input the following details:
+
+Number of Research Projects (proj)
+
+Number of Research Publications (pub)
+
+Profit (prof)
+
+Number of New Projects (new_proj)
+
+Check the increment condition:
+
+If at least three out of four criteria are satisfied (combinations checked in the if statement), then:
+
+Call increment_ref(salary) → salary is increased by 20%.
+
+Display the new salary.
+
+Else:
+
+Call increment_val(salary) → only a copy of salary is changed, original salary remains same.
+
+Display the unchanged salary with message “No increment!”.
+
+Stop
+
 
 
 
