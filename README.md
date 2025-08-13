@@ -144,7 +144,6 @@ Key points:
 
 ## Algorithm
 
-## Algorithm
 
 1. **Start**
 2. Initialize two integer arrays:
