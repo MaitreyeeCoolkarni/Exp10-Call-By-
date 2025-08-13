@@ -15,43 +15,43 @@ To learn about call by reference and call by value.
 
 Key points:
 
-The function works on its own copy of the data.
+1.The function works on its own copy of the data.
 
-Changes made inside the function do not affect the original variable.
+2.Changes made inside the function do not affect the original variable.
 
-Memory-wise: the original variable and the function parameter are stored in different memory locations.
+3.Memory-wise: the original variable and the function parameter are stored in different memory locations.
 
-Copy is passed – The actual value of the argument is copied into the function’s parameter.
+4.Copy is passed – The actual value of the argument is copied into the function’s parameter.
 
-Original is safe – Changes inside the function do not affect the original variable.
+5.Original is safe – Changes inside the function do not affect the original variable.
 
-Separate memory – The parameter and the original variable are stored in different memory locations.
+6.Separate memory – The parameter and the original variable are stored in different memory locations.
 
-Good for safety – Useful when you don’t want the function to accidentally change your data.
+7.Good for safety – Useful when you don’t want the function to accidentally change your data.
 
-Overhead for large data – For big objects/arrays, copying can be slower and use more memory.
+8.Overhead for large data – For big objects/arrays, copying can be slower and use more memory.
 
-Default method in C/C++ – If you don’t use pointers or references, parameters are passed by value by default.
+9.Default method in C/C++ – If you don’t use pointers or references, parameters are passed by value by default.
 
-Cannot return multiple results directly – Since it only has a copy, the function can’t modify multiple original variables unless you return them explicitly.
+10.Cannot return multiple results directly – Since it only has a copy, the function can’t modify multiple original variables unless you return them explicitly.
 
-Immutable in effect – The function works as if the parameter were read-only (even if you modify the copy).
+11.Immutable in effect – The function works as if the parameter were read-only (even if you modify the copy).
 
 ## Call By Reference
 
-Reference is passed – The function gets the memory address of the original variable, not a copy.
+1.Reference is passed – The function gets the memory address of the original variable, not a copy.
 
-Direct effect – Changes made in the function affect the original variable.
+2.Direct effect – Changes made in the function affect the original variable.
 
-Same memory location – Parameter and argument refer to the same storage in memory.
+3.Same memory location – Parameter and argument refer to the same storage in memory.
 
-Faster for large data – No copying needed, so it’s more efficient for big structures or arrays.
+4.Faster for large data – No copying needed, so it’s more efficient for big structures or arrays.
 
-Can return multiple results – Since you can modify the originals, you can change several variables at once.
+5.Can return multiple results – Since you can modify the originals, you can change several variables at once.
 
-Risk of unintended changes – If not careful, the function may accidentally overwrite important data.
+6.Risk of unintended changes – If not careful, the function may accidentally overwrite important data.
 
-Implemented in C++ using references (&) or pointers (*) – C only supports it via pointers.
+7.Implemented in C++ using references (&) or pointers (*) – C only supports it via pointers.
 
 
 | Feature | Call by Value | Call by Reference |
